@@ -5,13 +5,10 @@ import com.sparta.myselectshop.dto.ProductRequestDto;
 import com.sparta.myselectshop.dto.ProductResponseDto;
 import com.sparta.myselectshop.entity.User;
 import com.sparta.myselectshop.repository.UserRepository;
-import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.data.domain.Page;
-
-import java.util.stream.Stream;
 
 import static org.assertj.core.api.Assertions.*;
 
